@@ -1,56 +1,35 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #1e1e1e;
-    color: #d4d4d4;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     margin: 0;
-    padding: 20px;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #252526;
-    padding: 20px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
+    background-color: #f5f5f5;
+    color: #333;
 }
 
 h1 {
-    color: #569cd6;
-    border-bottom: 2px solid #569cd6;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+    border-color: #4285f4;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #4285f4;
+    text-align: center;
+    margin: 20px 0;
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
 }
 
-h2 {
-    color: #4ec9b0;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-p {
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-li {
-    background-color: #2d2d30;
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-a {
-    color: #569cd6;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+h1::after {
+    content: "";
+    display: block;
+    margin-top: 10px;
+    border-bottom: 2px solid #4285f4;
+    width: 50%;
 }
